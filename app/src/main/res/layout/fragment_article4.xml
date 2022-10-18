@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.article4.article4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="БЦЖ"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/bch"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="    БЦЖ (сокр. от Баци́лла Кальме́та — Гере́на, фр. Bacillus Calmette—Guérin, BCG) — вакцина против туберкулёза, приготовленная из штамма ослабленной живой бычьей туберкулёзной палочки (Mycobacterium bovis), которая практически утратила вирулентность для человека, будучи специально выращенной в искусственной среде.\n    БЦЖ — единственная доступная на 2018 год противотуберкулёзная вакцина. Эта вакцина относительно безопасная, недорогая и требует лишь одной инъекции. Несмотря на недостатки, вакцинация БЦЖ в большинстве эндемичных стран рассматривается в качестве жизнесберегающего и важного элемента стандартных мер по борьбе с туберкулёзом.\n    Помимо туберкулёза, вакцина БЦЖ обладает доказанной эффективностью в борьбе с проказой и, по неполным данным, защищает от язвы Бурули и других нетуберкулёзных микобактериозов. Кроме того, она используется при лечении рака мочевого пузыря."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

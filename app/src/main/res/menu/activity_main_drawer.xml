@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_article1"
+            android:title="Туберкулин"/>
+        <item
+            android:id="@+id/nav_article2"
+            android:title="Ниацин"/>
+        <item
+            android:id="@+id/nav_article3"
+            android:title="Пенициллин"/>
+        <item
+            android:id="@+id/nav_article4"
+            android:title="БЦЖ"/>
+        <item
+            android:id="@+id/nav_article5"
+            android:title="Бензилпенициллин"/>
+        <item
+            android:id="@+id/nav_article6"
+            android:title="6"/>
+        <item
+            android:id="@+id/nav_article7"
+            android:title="7"/>
+    </group>
+</menu>

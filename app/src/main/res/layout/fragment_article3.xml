@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.article3.article3">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Пенициллин"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/penicillin"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="    Пенициллины — антимикробные препараты, относящиеся к классу β-лактамных антибиотиков. Были открыты Александром Флемингом в 1929 году.\n    Первая мировая война обнажила уязвимые места медицинской науки: большое количество солдат с инфицированным ранами погибали, даже если проводилась их полная хирургическая обработка. А ведь эти крепкие и здоровые люди могли бы поправиться и вновь участвовать в боевых действиях, если бы имелся более эффективный способ оказать им помощь. Одновременно с лечением солдат, Флеминг стал искать лекарства, которые могли бы убивать бактерии. Он провел множество опытов, не увенчавшихся успехом. Однако, в один прекрасный день, на чашку, на которой находились микроорганизмы в питательной среде, упал кусок плесневелого хлеба. Ученый обратил внимание, что в месте контакта все бактерии исчезли. Этот факт его чрезвычайно заинтересовал. По другой версии, плесень попала на колонии стрептококков, которые выращивал ученый, из-за того, что он не всегда стерилизовал свои чашки, зачастую он их даже не мыл после предыдущих опытов.\n    В результате после многочисленных экспериментов он смог выделить в чистом виде вещество, которое назвал пенициллин. Однако применить его на практике он не смог: оно было очень нестойким. И, тем не менее, Флеминг доказал, что оно разрушает большое количество самых распространенных микроорганизмов (стрептококк, стафилококк, дифтерийную палочку, возбудителя сибирской язвы и др.)."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>
