@@ -8,14 +8,6 @@
             android:id="@+id/nav_home"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
             android:id="@+id/nav_article1"
             android:title="Туберкулин"/>
         <item
@@ -32,9 +24,9 @@
             android:title="Бензилпенициллин"/>
         <item
             android:id="@+id/nav_article6"
-            android:title="6"/>
+            android:title="Амоксициллин"/>
         <item
             android:id="@+id/nav_article7"
-            android:title="7"/>
+            android:title="Ципрофлоксацин"/>
     </group>
 </menu>
