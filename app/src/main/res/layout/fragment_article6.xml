@@ -4,11 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.article6.article6">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Амоксициллин"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/amoksicillin"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="    Амоксициллин — лекарственное средство, полусинтетический антибиотик широкого спектра действия группы пенициллинов для лечения бактериальных инфекции. К ним относятся инфекция среднего уха, ангина, пневмония, кожные инфекции и инфекции мочевыводящих путей. Его принимают внутрь или реже путём инъекции. Общие побочные эффекты включают тошноту и сыпь. Он также может увеличить риск дрожжевых инфекций и, при использовании в сочетании с клавулановой кислотой, вызвать диарею. Его не следует использовать тем, у кого аллергия на пенициллин. Хотя его можно использовать при проблемах с почками, дозу, возможно, придётся уменьшить. Его использование во время беременности и грудного вскармливания не представляет опасности. Амоксициллин относится к группе бета-лактамных антибиотиков. По своим фармакологическим свойствам близок к ампициллину, но, в отличие от него, обладает лучшей биодоступностью при пероральном приёме. Амоксициллин, как и многие другие бета-лактамные антибиотики, подвержен деградации бета-лактамазами, продуцируемыми некоторыми бактериями, поэтому он часто применяется в комбинациях с клавулановой кислотой, выступающей ингибитором таких ферментов."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 </FrameLayout>

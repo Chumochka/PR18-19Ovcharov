@@ -4,11 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.article5.article5">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Бензилпенициллин"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/benzilpenicillin"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="    Бензилпенициллин — антибиотик, получаемый из плесневого гриба пеницилла (грибов рода лат. Penicillium: лат. Penicillium chrysogenum, лат. Penicillium notatum и других). В процессе жизнедеятельности эти грибы синтезируют различные формы пенициллина: один из наиболее активных в фармакологическом плане бензилпенициллин и другие виды пенициллина, которые отличаются от первого тем, что вместо бензильной группы содержат иные радикалы. Таким образом по молекулярной структуре пенициллин это кислота, из которой получают различные соли (натриевую, калиевую, новокаиновую и другие).\n    Пенициллиновые антибиотики имеют важное историческое значение, так как они являются первыми эффективными лекарствами против многих тяжёлых заболеваний и, в частности, сифилиса, а также инфекций, вызываемых стафилококками и стрептококками. Пенициллины хорошо изучены, однако в настоящее время многие бактерии приобрели устойчивость к β-лактамным антибиотикам. Хотя, например, бледная трепонема достаточную устойчивость к пенициллинам не приобрела.\n    Как и другие β-лактамы, пенициллины не только препятствуют размножению клеток бактерий, в том числе и цианобактерий, но также препятствуют делению хлоропластов мхов. Но не оказывают влияния на деление пластид высших сосудистых растений[4], поскольку последние не имеют мишени для пенициллина — пептидогликановой клеточной стенки."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 </FrameLayout>

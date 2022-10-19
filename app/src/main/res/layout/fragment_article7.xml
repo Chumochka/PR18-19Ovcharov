@@ -4,11 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ui.article7.article7">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
-
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:text="Ципрофлоксацин"
+            android:textStyle="bold"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ciprofloksacin"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="    Ципрофлоксаци́н (лат. Ciprofloxacinum, англ. Ciprofloxacin) — лекарственное средство, противомикробный препарат из группы фторхинолонов ІІ поколения. Ципрофлоксацин — один из наиболее эффективных фторхинолонов, он нашёл широкое применение в клинической практике, что отразилось, в частности, в большом количестве наименований, под которыми он выпускается в разных странах.\n    Ципрофлоксаци́н (лат. Ciprofloxacinum, англ. Ciprofloxacin) — лекарственное средство, противомикробный препарат из группы фторхинолонов ІІ поколения. Ципрофлоксацин — один из наиболее эффективных фторхинолонов, он нашёл широкое применение в клинической практике, что отразилось, в частности, в большом количестве наименований, под которыми он выпускается в разных странах. Большинство стафилококков, устойчивых к метициллину, резистентны и к ципрофлоксацину. Чувствительность Streptococcus pneumoniae, Enterococcus faecalis, Mycobacterium avium (расположенных внутриклеточно) — умеренная (для их подавления требуются высокие концентрации). К препарату резистентны: Bacteroides fragilis, Pseudomonas cepacia, Pseudomonas maltophilia, Ureaplasma urealyticum, Clostridium difficile, Nocardia asteroides. Не эффективен в отношении Treponema pallidum. Резистентность развивается крайне медленно, поскольку, с одной стороны, после действия ципрофлоксацина практически не остается персистирующих микроорганизмов, а с другой — у бактериальных клеток нет ферментов, инактивирующих его."/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 </FrameLayout>
